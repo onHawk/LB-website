@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import { Layout, Menu, Icon, Row, Col } from 'antd';
 
@@ -43,7 +43,9 @@ class Home extends Component {
                 ex link
               </a>
             </Menu.Item>
-            <Menu.Item>link 2</Menu.Item>
+            <Menu.Item>
+              <Link to="/gallery">Our work</Link>
+            </Menu.Item>
             <Menu.Item>link 3</Menu.Item>
           </Menu>
         </Header>
