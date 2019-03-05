@@ -20,8 +20,9 @@ class Nav extends Component {
           top: 0,
         }}
       >
-        <div
+        <Link
           // logo div
+          to="/"
           style={{
             border: '2px solid red',
             color: 'white',
